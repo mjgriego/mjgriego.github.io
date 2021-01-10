@@ -4016,9 +4016,12 @@ header.masthead {
     background-size: contain, auto;
 }
 header.masthead .masthead-subheading {
-    color:var(--textPrimary);
+    color:white;
+    -webkit-text-stroke-width: 0.02rem;
+    -webkit-text-stroke-color: var(--primary);
+    -webkit-text-fill-color: var(--bg);
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-style: italic;
     line-height: 1.5rem;
     margin-bottom: 25px;
@@ -4027,9 +4030,9 @@ header.masthead .masthead-subheading {
 header.masthead .masthead-heading {
     text-align: right;
     color:white;
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 1.0px;
     -webkit-text-stroke-color: var(--primary);
-    -webkit-text-fill-color: var(--textPrimary);
+    -webkit-text-fill-color: var(--bg);
     font-size: 3.25rem;
     font-weight: 700;
     line-height: 3.25rem;
@@ -4044,10 +4047,11 @@ header.masthead .masthead-heading {
         padding-bottom: 12.5rem;
     }
     header.masthead .masthead-subheading {
-        font-size: 2.25rem;
+        font-size: 3.0rem;
         font-style: italic;
         line-height: 2.25rem;
         margin-bottom: 2rem;
+        -webkit-text-stroke-width: 0.05rem;
     }
     header.masthead .masthead-heading {
         font-size: 4.5rem;
